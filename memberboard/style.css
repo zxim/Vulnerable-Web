@@ -1,0 +1,37 @@
+/* 공통 설정 */
+* { padding: 0; margin: 0; box-sizing: border-box;}
+ul { list-style-type: none; }
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #222222; }
+a:hover { text-decoration:none; color: #222222; }
+a:visited { text-decoration:none; color: #222222; }
+a:active { text-decoration:none; color: #222222; }
+/* 버튼 */
+.buttons { text-align: right; margin: 20px 20px 0 0; }
+.buttons li { display: inline; }
+.buttons button { padding: 3px 20px; cursor: pointer; }
+/* 게시판 제목 */
+h2 { margin-top: 20px;	padding: 10px; border-bottom: solid 3px black; }
+/* 게시판 글쓰기(form.php) */
+.board_form span { display: inline-block; }
+.board_form .col1 { width: 15%; float: left }
+.board_form .col2 { width: 85%; float: left }
+.board_form li { height: 50px; padding: 12px; border-bottom: solid 1px #dddddd; }
+.board_form input { width: 100%; height: 25px; }
+.board_form .area { height: 155px; }
+.board_form textarea { width: 100%; height: 130px; }
+.board_form .email input { width: 150px; }
+/* 게시판 목록보기(list.php) */
+.board_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+.board_list span { display: inline-block; text-align: center; }
+.board_list .col1 { width: 10%; }
+.board_list .col2 { width: 55%; text-align: left; }
+.board_list .col3 { width: 7%; }
+.board_list .col4 { width: 6%; }
+.board_list .col5 { width: 18%; }
+.page_num {	text-align: center;	margin-top: 20px; }
+.page_num li { display: inline; }
+/* 게시판 내용보기(view.php) */
+.board_view .row1 {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+.board_view .row2 {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+.board_view .col2 { float: right; }
